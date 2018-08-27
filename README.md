@@ -1,6 +1,6 @@
 # Conexion-Nem-Blockchain
 Clases para agilizar el proceso de extracción de información de la blockchain de NEM
-'''conectBlockchain("IP-SERVER")'''
+```conectBlockchain("IP-SERVER")```
 - get_balance_entrante('address')
 - get_balance_saliente('address')
 - get_address_from_pkey('address')
