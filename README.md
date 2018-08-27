@@ -18,7 +18,7 @@ Instalar la siguiente dependencia:
 ### Ejemplos de uso
 
 ```python
-  from conexion import connecBlockchain
+  from conexion import connectBlockchain
   
   connection = conectBlockchain("153.122.112.137")
   entrante = connection.get_balance_entrante('TD6GWFFBJ5OO4MNTXXZEJ2SAMNP4U2MYQ37VK7S7')
