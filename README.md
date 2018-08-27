@@ -1,6 +1,6 @@
 # Conexion-Nem-Blockchain
 
-Clase python para la conexíón con la [Blockchain NEM](https://nemproject.github.io). 
+Clase python para la conexión con la [Blockchain NEM](https://nemproject.github.io). 
 
 ### Prerequisitos
 
