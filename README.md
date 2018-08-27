@@ -18,9 +18,11 @@ Instalar la siguiente dependencia:
 ### Ejemplos de uso
 
 ```
+  from conexion import connecBlockchain
+  
   connection = conectBlockchain("153.122.112.137")
   entrante = connection.get_balance_entrante('TD6GWFFBJ5OO4MNTXXZEJ2SAMNP4U2MYQ37VK7S7')
   saliente = connection.get_balance_saliente('TD6GWFFBJ5OO4MNTXXZEJ2SAMNP4U2MYQ37VK7S7')
-  addres = connection.get_address_from_pkey('')
-  data = conectBlockchain("153.122.112.137").get_balance_saliente("de49e258ff650a185f5ae0d7ec05a345d120277042fb0f68ef40984b8b0e8d99")
+  addres = connection.get_address_from_pkey('de49e258ff650a185f5ae0d7ec05a345d120277042fb0f68ef40984b8b0e8d99')
+  data = conectBlockchain("153.122.112.137").get_balance_saliente('TD6GWFFBJ5OO4MNTXXZEJ2SAMNP4U2MYQ37VK7S7')
 ```
