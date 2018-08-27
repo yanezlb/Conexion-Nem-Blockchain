@@ -17,7 +17,7 @@ Instalar la siguiente dependencia:
 
 ### Ejemplos de uso
 
-```
+```python
   from conexion import connecBlockchain
   
   connection = conectBlockchain("153.122.112.137")
